@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NT-SUTDIO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow glow1"></div>
+<div class="bg-glow glow2"></div>
+
+<header>
+  <img src="logo.png" class="logo">
+  <h1>NT-SUTDIO</h1>
+  <p>Future Design • Purple Dark Theme</p>
+
+  <a href="#" class="btn">ENTER WEBSITE</a>
+</header>
+
+<section class="features">
+
+  <div class="card">
+    <h2>⚡ FAST SYSTEM</h2>
+    <p>เว็บไซต์ Node.js พร้อมใช้งานจริง รัน npm ได้ทันที</p>
+  </div>
+
+  <div class="card">
+    <h2>🎨 ULTRA UI</h2>
+    <p>ดีไซน์ม่วงดำ Cyber Style พร้อม Animation และ Glassmorphism</p>
+  </div>
+
+  <div class="card">
+    <h2>🚀 READY DEPLOY</h2>
+    <p>พร้อม Deploy ขึ้น VPS / Replit / Render / Railway</p>
+  </div>
+
+</section>
+
+<footer>
+  Ntdev Sutdio
+</footer>
+
+</body>
+</html>
