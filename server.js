@@ -1,8 +1,16 @@
+const express = require('express');
+const path = require('path');
 
-# NT-SUTDIO
+const app = express();
 
-## Install
-npm install
+app.use(express.static(path.join(__dirname,'public')));
 
-## Run
-npm start
+app.get('/',(req,res)=>{
+    res.sendFile(path.join(__dirname,'public/index.html'));
+});
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT,()=>{
+    console.log(`NT-SUTDIO Running on http://localhost:${PORT}`);
+});
